@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 300px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F7F5EB;
+}
+.dropdown-menu{
+    text-align: center;
+}
+.dropdown-menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.dropdown-menu ul li{
+    display: inline-block;
+    width: 250px;
+}
+.dropdown-menu ul li a{
+    display: block;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+.dropdown-menu ul li a:hover{
+    background-color: #94B49F;
+}
+.dropdown-menu ul li ul{
+    display: none;
+    position: absolute;
+    width: 250px;
+}
+.dropdown-menu ul li ul li{
+    background-color: #F7F5EB;
+}
+.dropdown-menu ul li:hover ul{
+    display: block;
+}
+
+.dropdown-menu li ul li{
+    display: block;
+}
+header{
+    color: #EAC7C7;
+    text-align: center;
+    font-size: xx-large;
+}
+header p{
+    font-size: x-large;
+}
+aside{
+    text-align: center;
+    font-size: large;
+    line-height: 1cm;
+}
+.video_display{
+    text-align: center;
+}
+aside img{
+    text-align: center;
+    height: 100px;
+}
+aside footer{
+    font-size: medium;
+    line-height: normal;
+}
+footer h2{
+    color: #94B49F;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer .iletisim .gorus{
+    float: left;
+}
+
+footer .iletisim{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+footer .gorus{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
